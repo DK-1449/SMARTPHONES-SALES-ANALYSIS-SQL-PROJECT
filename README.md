@@ -1,40 +1,66 @@
-# SMARTPHONES-SALES-ANALYSIS-SQL-PROJECT
+# Smartphones-Sales-Analysis-Project
 
-## Overview
+# 📱 Smartphones Sales Analysis Using MySQL
 
-This project analyzes a comprehensive dataset containing detailed specifications and pricing information for a wide range of smartphones. Using SQL queries, the project aims to extract valuable insights about smartphone market trends, brand performance, hardware configurations, and price segmentation. The dataset supports various analytical tasks such as identifying popular features, segmenting products by price category, and evaluating technology adoption like 5G and fast charging.
+This project involves an in-depth analysis of a smartphone dataset using SQL. The goal is to uncover market trends, hardware feature adoption, pricing segments, and brand-level performance through a series of analytical queries.
+
+---
+
+## 🗂️ Project Overview
+
+- 🔍 Performed structured SQL queries on a comprehensive smartphone dataset to analyze:
+  - Total smartphone models, brands, and sales value
+  - Feature-based segmentation (5G, NFC, IR Blaster, fast charging)
+  - Price categorization: Budget, Midrange, Premium, Ultra-Premium
+  - Brand-wise performance metrics
+  - Camera and battery specification-based insights
+  - Most common specs (RAM, internal storage, refresh rate)
 
 ---
 
-## Dataset Columns Overview
+## 🧰 Tools & Technologies
 
-| Column Name               | Description                                                     |
-|--------------------------|-----------------------------------------------------------------|
-| **brand_name**            | Manufacturer or brand of the smartphone                         |
-| **model**                 | Specific smartphone model                                       |
-| **price**                 | Price of the smartphone (currency assumed ₹)                    |
-| **rating**                | Customer or expert rating (likely on a scale, e.g., 1-5)       |
-| **has_5g**                | Boolean indicating 5G support (TRUE/FALSE)                      |
-| **has_nfc**               | Boolean indicating NFC support                                  |
-| **has_ir_blaster**        | Boolean indicating IR blaster availability                      |
-| **processor_brand**       | Brand of the smartphone’s processor (e.g., Qualcomm, MediaTek) |
-| **num_cores**             | Number of CPU cores                                            |
-| **processor_speed**       | Processor speed in GHz                                          |
-| **battery_capacity**      | Battery capacity in mAh                                        |
-| **fast_charging_available** | Boolean or indicator for fast charging support               |
-| **fast_charging**         | Details or speed of fast charging (e.g., 18W, 33W)             |
-| **ram_capacity**          | RAM size in GB                                                |
-| **internal_memory**       | Internal storage in GB                                         |
-| **screen_size**           | Display size in inches                                         |
-| **refresh_rate**          | Screen refresh rate in Hz                                     |
-| **num_rear_cameras**      | Number of rear cameras                                        |
-| **num_front_cameras**     | Number of front cameras                                      |
-| **os**                   | Operating system (e.g., Android, iOS)                        |
-| **primary_camera_rear**   | Primary rear camera resolution in megapixels                 |
-| **primary_camera_front**  | Primary front camera resolution in megapixels                |
-| **extended_memory_available** | Boolean indicating if expandable storage is supported       |
-| **extended_upto**         | Max expandable memory size in GB                              |
-| **resolution_width**      | Screen resolution width in pixels                             |
-| **resolution_height**     | Screen resolution height in pixels                            |
+- **Language:** SQL
+- **Platform:** MySQL 
+- **Data Source:** Smartphones dataset (structure includes model, brand, specs, and price)
 
 ---
+
+## 📊 Key SQL Queries Executed
+
+- Total models, brands, and sales volume
+- Grouping by processor brands and operating systems
+- Identifying 5G-enabled phones and other feature-based filters
+- Classifying smartphones by price segment using CASE
+- Finding top-performing brands in midrange and premium segments
+- Calculating average prices, RAM, battery capacity, etc.
+- Using aggregate functions, `GROUP BY`, `ORDER BY`, `HAVING`, and subqueries
+- Advanced filters for camera and screen specifications
+
+---
+
+## 💡 Insights Extracted
+
+- 📈 5G and fast-charging features are common in premium devices
+- 🏷️ Midrange smartphones (₹20K–₹30K) have the highest competition
+- 📷 Camera specs (64MP rear, 32MP front) are common in premium-tier phones
+- ⚡ Battery ≥5000mAh and 120Hz refresh rate are standard in high-end models
+- 🏆 Brands like Xiaomi, Samsung, and Vivo dominate volume segments
+- 📦 Most common storage configuration varies by brand
+
+---
+
+## 📁 File Structure
+
+- `smartphones_sales_analysis.sql` – All SQL queries used for analysis
+- `README.md` – Project documentation (this file)
+
+---
+
+
+## 📬 Contact
+
+For questions, feedback, or collaborations:  
+[Deepak Katve] | [LinkedIn](https://www.linkedin.com/in/deepak-katve-15648b231/)
+
+
